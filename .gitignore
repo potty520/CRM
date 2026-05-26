@@ -1,0 +1,23 @@
+# sensitive
+*.yml
+!crm-server/src/main/resources/application.yml
+
+# dependencies
+crm-web/node_modules/
+crm-server/target/
+
+# build
+crm-web/dist/
+*.class
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# logs
+*.log
